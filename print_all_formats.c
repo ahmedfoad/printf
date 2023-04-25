@@ -13,10 +13,7 @@ int print_all_formats(const char *format, va_list args)
 	int is_argument = 0;
 	int is_long = 0;
 	int is_flag_end = 1;
-	int i, count;
-	char number_buffer[65];
-	char currentChar;
-	void *p;
+	int count;
 
 	count = 0;
 	while (format[count] != '\0')

@@ -1,5 +1,4 @@
-include "main.h"
-
+#include "main.h"
 /**
  * print_integer - print integer value only.
  * @args: arguments list of arguments.

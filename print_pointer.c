@@ -14,7 +14,7 @@ int print_pointer(va_list args)
 
 	_putchar('0');
 	_putchar('x');
-	printed_chars + 2;
+	printed_chars = printed_chars + 2;
 
 	p = va_arg(args, void *);
 
