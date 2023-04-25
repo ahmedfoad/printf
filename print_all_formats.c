@@ -1,22 +1,14 @@
 #include "main.h"
 /**
  * print_all_formats - writes  all input characters to stdout
- * @format: All the input characters that needs to be printed
+ * @format: All the input characters that need to be printed
  * @args: dynamic arguments
  * Return: the number of printed characters.
  */
 int print_all_formats(const char *format, va_list args)
 {
-<<<<<<< HEAD
 	int printed_chars = 0, is_argument = 0, is_long = 0;
 	int is_flag_end = 1, count = 0;
-=======
-	int printed_chars = 0;
-	int is_argument = 0;
-	int is_long = 0;
-	int is_flag_end = 1;
-	int count;
->>>>>>> cad2403a843a62b8eb621418d60699ebc40f21c6
 
 	while (format[count] != '\0')
 	{
