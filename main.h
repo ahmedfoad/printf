@@ -8,7 +8,8 @@
 
 int _putchar(char c);
 void number_to_string(__uint64_t number, int base, char *buffer);
-int print_all_format_checker(char format, va_list args, int *is_argument, int *is_long, int *is_flag_end);
+int print_all_format_checker
+(char format, va_list args, int *is_argument, int *is_long, int *is_flag_end);
 int print_all_formats(const char *format, va_list args);
 int print_char(va_list args);
 int print_decimal(int *is_long, va_list args);

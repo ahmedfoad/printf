@@ -1,6 +1,4 @@
 #include "main.h"
-
-
 /**
  * print_all_format_checker - check the character type then print
  * @format: All the input characters that needs to be printed
@@ -10,7 +8,8 @@
  * @is_flag_end: (1) if the is_flag_end is true else, equal (0).
  * Return: the number of printed characters.
  */
-int print_all_format_checker(char format, va_list args, int *is_argument, int *is_long, int *is_flag_end)
+int print_all_format_checker(char format, va_list args,
+int *is_argument, int *is_long, int *is_flag_end)
 {
 	int printed_chars = 0;
 
@@ -45,7 +44,6 @@ int print_all_format_checker(char format, va_list args, int *is_argument, int *i
 		printed_chars++;
 		*is_argument = 0;
 	}
-
 	return (printed_chars);
 }
 
